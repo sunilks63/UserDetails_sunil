@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
-import PropTypes from 'prop-types';
 import {Home, Employees, Sales, Customer} from "./components";
 
 function Routes(props) {

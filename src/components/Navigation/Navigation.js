@@ -17,7 +17,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
 import HomeIcon from '@material-ui/icons/Home';
 import Header from '../Header';
 import {

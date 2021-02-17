@@ -34,15 +34,15 @@ const UserDetails = (props) => {
             <FormControl>
                 <Box p={2} >
                     <label>First Name:</label>
-                    <TextField fullWidth required id="outlined-basic" variant="outlined" value={first_name} onChange={e => setFirstName(e.target.value)} />
+                    <TextField fullWidth variant="outlined" value={first_name} onChange={e => setFirstName(e.target.value)} />
                 </Box>
                 <Box p={2}>
                     <label margin={2}>Last Name:</label>
-                    <TextField fullWidth id="outlined-basic" variant="outlined" value={last_name} onChange={e => setLastName(e.target.value)} />
+                    <TextField fullWidth variant="outlined" value={last_name} onChange={e => setLastName(e.target.value)} />
                 </Box>
                 <Box p={2}>
                     <label variant="standard">Email:</label>
-                    <TextField fullWidth id="outlined-basic" variant="outlined" type="text" value={email} onChange={e => setEmail(e.target.value)} />
+                    <TextField fullWidth variant="outlined" type="text" value={email} onChange={e => setEmail(e.target.value)} />
                 </Box>
                 <Box p={2} display="flex" justifyContent="flex-end">
                     <Button
